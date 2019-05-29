@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+            box-sizing: border-box;
+        }
+.jumbotron {
+            background-image: url('images/banner-image-1.jpg');
+            background-size: auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            flex: 1 1 1140px;
+            height: 418px;
+            border-radius: 0;
+            }
+.container {
+            flex-shrink: 1
+}
+.block2 {
+            background-color: #f39200
+        }
+.block3 {
+            background-image: url('images/content-image-1.jpg');
+            background-size: cover;
+            height: 240px;
+        }
+.block4 {
+            background-image: url('images/content-image-2.jpg');
+            background-size: cover;
+            height: 240px;
+        }
+.block5 {
+            background-image: url('images/content-image-3.jpg');
+            background-size: cover;
+            height: 240px;
+        }
+.block6 {
+            background-image: url('images/content-image-4.jpg');
+            background-size: cover;
+            height: 240px;
+        }
+.sea,
+.road, 
+.air, 
+.projects  {
+            background-color: rgba(0, 159, 227, 0.9 );
+            border: none;
+            width: 132px;
+            height: 32px;
+            margin-bottom: 12px;
+           }
+.services {
+            background-color: rgba(0, 159, 227, 0.68 );
+            padding-left: 48px;
+            font-size: 36px;
+            font-weight:300;
+            line-height: 45px;
+            width: 48%;
+            height: 50%;
+            text-align: left;
+            }
+.header {
+            height: 100px;
+            font-size: 16px;
+            line-height: 17px;
+}
+.logo {
+    /* float: left; */
+    position: absolute;
+        left: 0;
+}
+.nav-link  {
+            font-size: 16px;
+            line-height: 17px;
+            font-weight:300;
+            color: black;
+            margin: 28px;
+            }
+.zag {
+        font-size: 24px;
+        font-weight:300;
+        line-height: 24px;
+    }
+.text {         
+        font-size: 15px;
+        font-weight:300;
+        line-height: 24px;
+
+}
